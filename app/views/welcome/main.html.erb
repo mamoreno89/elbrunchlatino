@@ -1,2 +1,227 @@
-<h1>Welcome#main</h1>
-<p>Find me in app/views/welcome/main.html.erb</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>El Brunch Latino</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+	<!-- JavaScript SDK for Facebook -->
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">El Brunch Latino</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#events">Events</a>
+                    </li>
+                    <li>
+                        <a href="#tickets">Tickets</a>
+                    </li>
+                    <li>
+                        <a href="#followus">Follow Us</a>
+                    </li>
+                    <li>
+                        <a href="#gallery">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#podcast">Podcast</a>
+                    </li>
+                    <li>
+                        <a href="#contactus">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline" id="home">
+            <div class="container">
+                <h1>One Page Wonder</h1>
+                <h2>Will Knock Your Socks Off</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+    	
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="events">
+        	<%= image_tag "ticket.png", class: "featurette-image img-circle img-responsive pull-right" %>
+            <h2 class="featurette-heading">Events
+                <span class="text-muted">That Catch Your Eye</span>
+            </h2>
+            <div class="lead">We invite you to come experience a whole new feel to the Sunday Brunch- EL BRUNCH LATINO!</p>
+
+<p>Enjoy a "fall" day out, filled with wonderful drinks, Latin American cuisine brunch buffet, and a beautiful tropical atmosphere made up of cabanas and palm trees.</p>
+
+<p>Exotic, energetic, & cultural Sunday in the festive atmosphere of El Pueblito Patio is a singulat experience. We invite you to dine on Latin-inspired brunch buffet while sipping drinks that run the gamut from muddled cocktails, to uniquely prepared sangrias, & different flavored mimosas, to a build your own bloody mary bar, & a variety of other libations.</p>
+
+<p>In addition to delicious foods & unique drinks, you will also enjoy our main stage with Latin music by Rudy Rincon y su Grupo Kache starting at 2pm.</p>
+
+<p>In between sets enjoy the sounds of Hot 95.7 & Sirus XM DJ PlayBoy playing the hottest Top 40/Dance/Mainstream, PartyKingz own DJ Chino playing Salsa, Merengue, Bachata, & Timba rhythms! 104.9 LatinoMix DJ Notorious mixing the best of Latin/International!!</p>
+
+<p>Artisan area with local artist showcasing their artwork. Cooking demonstrations by re-known local chefs & free giveaways and plenty more for your entertainment!</p>
+
+<p>❖ NO Dress Code</p> 
+
+<p>❖18 to party 21 to drink</p>
+
+<p>❖ Brunch buffet- $25/person</p>
+
+<p>❖ Bottomless mimosas specials- only $5 extra at the door</p>
+
+<p>❖ Unique & unusual brunch drinks- $5</p>     
+
+<p>❖ Beer Buckets- $20</p>
+
+<p>❖ Vallet & self-parking available</p>
+
+<p>❖ For Cabana RSVPs & info please call 713.520.6635 or visit us at www.elpueblitopatio.com</p>
+
+<p>❖ For champagne & bottle specials // to make table reservations, please contact Eduardo Lopez @ 713-502-7374</p>
+</div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette" id="tickets">
+        	<%= image_tag "eventbrite_logo.jpg", class: "featurette-image img-circle img-responsive pull-left" %>
+            <h2 class="featurette-heading">Tickets
+                <span class="text-muted">Join The Party</span>
+            </h2>
+            <p class="lead">Tickets can be purchased at
+https://www.elbrunchlatino.eventbrite.com </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Third Featurette -->
+        <div class="featurette" id="followus">
+            <div class="img-responsive pull-right"><div class="fb-page" data-href="https://www.facebook.com/elbrunchlatino" data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/elbrunchlatino"><a href="https://www.facebook.com/elbrunchlatino">El Brunch Latino</a></blockquote></div></div></div>
+            <h2 class="featurette-heading">Follow Us
+                <span class="text-muted">On Social Media</span>
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Fourth Featurette -->
+        <div class="featurette" id="gallery">
+        	<%= image_tag "camera.jpg", class: "featurette-image img-circle img-responsive pull-left" %>
+            <h2 class="featurette-heading">Gallery
+                <span class="text-muted">See What We Do</span>
+            </h2>
+            <p class="lead">Coming soon...</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Fifth Featurette -->
+        <div class="featurette" id="podcast">
+        	<%= image_tag "mixcloud.png", class: "featurette-image img-circle img-responsive pull-right" %>
+            <h2 class="featurette-heading">Podcast
+                <span class="text-muted">Listen To Us</span>
+            </h2>
+            <p><iframe src="https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=f4384d15-8c18-40ff-9bd4-35caebd2504f&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2FELBRUNCHLATINO%2Fel-brunch-latino-mix-episode-1-podcast-101115%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0" frameborder="0" height="180" width="660"></iframe><div style="clear: both; height: 3px; width: 652px;"></div><p style="display: block; font-size: 11px; font-family: &quot;Open Sans&quot;,Helvetica,Arial,sans-serif; margin: 0px; padding: 3px 4px; color: rgb(153, 153, 153); width: 652px;"><a href="https://www.mixcloud.com/ELBRUNCHLATINO/el-brunch-latino-mix-episode-1-podcast-101115/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link" target="_blank" style="color:#808080; font-weight:bold;">EL BRUNCH LATINO MIX - EPISODE 1 PODCAST - 10.11.15</a><span> by </span><a href="https://www.mixcloud.com/ELBRUNCHLATINO/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link" target="_blank" style="color:#808080; font-weight:bold;">El_Brunch_Latino_Show</a><span> on </span><a href="https://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link" target="_blank" style="color:#808080; font-weight:bold;"> Mixcloud</a></p><div style="clear: both; height: 3px; width: 652px;"></div>
+</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Sixth Featurette -->
+        <div class="featurette" id="contactus">
+        	<%= image_tag "contactus.png", class: "featurette-image img-circle img-responsive pull-left" %>
+            <h2 class="featurette-heading">Contact Us
+                <span class="text-muted">How To Reach Us</span>
+            </h2>
+            <div class="lead"><p>Address: 723 Main Street Suite 231 Houston TX 77002</p>
+               <p>phone: 281.589.1566</p>
+               <p>email: elbrunchlatino@gmail.com</p>
+           </div>
+
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Footer -->
+ <footer>
+    <div class="row">
+        <div class="col-lg-12">
+            <p>Copyright &copy; El Brunch Latino 2015</p>
+            <p>Web Design by MM.</p>
+            <p>Sponsors:</p>
+            <%= image_tag "NLRbanner.png", size: "500x500", class: "center-block" %>
+            <%= image_tag "PK.png", class: "center-block" %>
+    </div>
+         </div>
+</footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
