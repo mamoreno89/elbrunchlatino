@@ -24,6 +24,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+
 </head>
 
 <body>
@@ -96,8 +98,9 @@
 
     <!-- Page Content -->
     <div class="container">
+    	<br />
 
-    	
+    	<%= image_tag "EBL - Classy flyer.jpg", size:"480x480", class: "center-block" %>
 
         <hr class="featurette-divider">
 
@@ -143,7 +146,7 @@
 
         <!-- Second Featurette -->
         <div class="featurette" id="tickets">
-        	<%= image_tag "eventbrite_logo.jpg", class: "featurette-image img-circle img-responsive pull-left" %>
+        	<%= image_tag "eventbrite_logo.jpg", size:"250x250", class: "featurette-image img-circle img-responsive pull-left" %>
             <h2 class="featurette-heading">Tickets
                 <span class="text-muted">Join The Party</span>
             </h2>
@@ -173,11 +176,12 @@
 
         <!-- Fourth Featurette -->
         <div class="featurette" id="gallery">
-        	<%= image_tag "camera.jpg", class: "featurette-image img-circle img-responsive pull-left" %>
-            <h2 class="featurette-heading">Gallery
+        	<%= image_tag "camera.jpg", size: "250x250", class: "featurette-image img-circle img-responsive pull-left" %>
+            <h2 class="featurette-heading",>Gallery
                 <span class="text-muted">See What We Do</span>
             </h2>
-            <p class="lead">Coming soon...</p>
+            <p class="lead"><div id="photos"></div>
+<iframe src="//embedsocial.com/facebook_album/album_photos/1475712176071820" width="900" height="1450" frameborder="0" scrolling="no" marginheight="0"  marginwidth="0"></iframe></p>
         </div>
 
         <hr class="featurette-divider">
@@ -196,7 +200,7 @@
 
         <!-- Sixth Featurette -->
         <div class="featurette" id="contactus">
-        	<%= image_tag "contactus.png", class: "featurette-image img-circle img-responsive pull-left" %>
+        	<%= image_tag "contactus.png", size: "250x250", class: "featurette-image img-circle img-responsive pull-left" %>
             <h2 class="featurette-heading">Contact Us
                 <span class="text-muted">How To Reach Us</span>
             </h2>
